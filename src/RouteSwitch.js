@@ -1,5 +1,5 @@
 import itemData from "./data/itemData";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Components/Home";
 import Gear from "./Components/Gear";
 import Merch from "./Components/Merch";
@@ -9,7 +9,7 @@ import Cart from "./Components/Cart";
 function RouteSwitch() {
   return (
     <div className="bodyContent">
-      <BrowserRouter>
+      
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/gear' element={<Gear />}/>
@@ -17,7 +17,7 @@ function RouteSwitch() {
           <Route path='/about' element={<About />}/>
           <Route path='/cart' element={<Cart />}/>
         </Routes>
-      </BrowserRouter>
+      
     </div>
   );
 }

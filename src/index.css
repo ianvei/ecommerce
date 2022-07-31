@@ -43,3 +43,9 @@ code {
   max-width: 100%;
   min-width: 90%;
 } */
+
+nav {
+  display: inline-flex;
+  padding-left: 20px;
+  gap: 20px;
+}

@@ -6,8 +6,9 @@ function Gear() {
   return (
     <div className='gear-cont'>
     {itemData.map(item => {
+        // console.log(item.staticImg)
         return(
-            <ItemCard name={item.name} description={item.description} staticImg={item.images.static} hoverImg={item.images.hover} price={item.price}/>
+            <ItemCard key={item.id} itemData={item}/>
     )})}
     </div>
   )
