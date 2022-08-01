@@ -25,8 +25,8 @@ const cartReducer = (state, action) => {
         return {
             ...state,
             // console.log('hi')
-            cart:state.cart.filter((item) => item.id === action.payload.item.id ? item.size = action.payload.size : item.size)
-            // cart:state.cart.filter((item) => console.log(action.payload))
+            cart:state.cart.filter((item) => item.id === action.payload.item.id ? item.size = action.payload.size : item)
+            // cart:state.cart.filter((item) => console.log(action.payload.size))
             
         }
         default:

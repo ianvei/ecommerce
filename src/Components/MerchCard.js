@@ -8,7 +8,7 @@ function MerchCard( {itemData} ) {
         dispatch,
     } = useContext(CartContext);
 
-const [size, setSize] = useState('');
+const [size, setSize] = useState('S');
 //   useEffect(() => {
 //     console.log(item)
 //   })
@@ -22,9 +22,7 @@ const [size, setSize] = useState('');
         <p>{price}</p>
         <label htmlFor="size">Select a size</label>
         <select name="size" 
-        // defaultValue={
-        //     cart.some((item) => itemData.id === item.id? item.size: 'S')
-        // } 
+        value={size? size: 'S'}
         id="" onChange={
         //     (e) => dispatch({
         //     type: 'CHANGE_SIZE',

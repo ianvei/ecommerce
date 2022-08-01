@@ -14,7 +14,7 @@ function Cart() {
       {cart.map((item) => {
        console.log(cart)
        return(
-        <div className='cart-card'>
+        <div className='cart-card' key={item.id}>
           <img src={item.images.staticImg} alt={item.name} className="checkout-img"/>
           <h2>{item.name}</h2>
           <p>{item.price}</p>
