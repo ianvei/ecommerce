@@ -5,6 +5,7 @@ import Gear from "./Components/Gear";
 import Merch from "./Components/Merch";
 import About from "./Components/About";
 import Cart from "./Components/Cart";
+import Checkout from "./Components/Checkout";
 
 function RouteSwitch() {
   return (
@@ -16,6 +17,7 @@ function RouteSwitch() {
           <Route path='/merch' element={<Merch />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/cart' element={<Cart />}/>
+          <Route path="/checkout" element={<Checkout />}></Route>
         </Routes>
       
     </div>

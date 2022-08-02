@@ -2,6 +2,7 @@ import React from 'react'
 import { useContext, useState } from 'react'
 import cartReducer from '../Reducers'
 import CartContext from '../CartContext'
+import { Link } from 'react-router-dom'
 
 function Cart() {
   const {
@@ -25,8 +26,8 @@ function Cart() {
        )
       })}
       <div className='checkout'>
-        <p>total price: {cart.reduce((total, item)=>total+(item.price*item.qty), 0)}
-        </p>
+         <Link to='/checkout'><button>total price: {cart.reduce((total, item)=>total+(item.price*item.qty), 0)}
+        </button></Link>
       </div>
     </div>
   )

@@ -5,10 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 * {
   font-family: 'Nunito Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 code {
@@ -19,7 +21,7 @@ code {
 .tempimg {
   /* width: 100px;
   height: 100px; */
-  max-width: 80%;
+  max-width: 89%;
 }
 
 .item-card {
@@ -27,6 +29,8 @@ code {
   flex-direction: column;
   width: 100%;
   align-items: center;
+  background-color: white;
+  /* animation: 1s ease-out 0s 1 slideInFromLeft; */
   
 }
 
@@ -37,6 +41,16 @@ code {
   justify-content: center;
   gap: 50px;
   padding: 5% 5%;
+  background-color: lightblue;
+}
+
+.gear-cont {
+  background-image: url('/public/0026_11.jpeg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  
 }
 
 /* .item-card > h3, h4, p {
@@ -48,13 +62,18 @@ nav {
   position: sticky;
   top: 0;
   display: inline-flex;
-  padding-left: 20px;
+  /* padding-left: 20px; */
   gap: 20px;
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
+  /* padding-top: 1.5%;
+  padding-bottom: 1.5%; */
   align-items: center;
-  background-color: lightgray;
+  /* background-color: lightgray; */
+  background-color: white;
   width: 100%;
+  justify-content: space-between;
+  padding: 0.5% 5%;
+  padding-left: 2%;
+  box-shadow: -1px 2px 16px 0px rgba(128, 128, 128, 0.313);
 }
 
 .checkout-img {
@@ -68,6 +87,183 @@ nav {
   gap: 100px;
 }
 
+nav > a > h1 {
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.nav-rs {
+  display: inline-flex;
+  gap: 40px;
+}
+
+.nav-rs > a, div > a {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.cartHoverCont {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  right: 0%;
+  min-width: 400px;
+  /* width: 200%; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.cart-hover-img {
+  width: 20%;
+  height: 20%;
+}
+
+.nav-cart-card {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-cart-card > h2 {
+  font-size: 16px;
+  width: 20%;
+  }
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.cartHoverCont:hover .dropdown-content {display: block;}
+
+.hidden {
+  display: none !important;
+}
+
+a {
+  color: black;
+  text-decoration: none; 
+}
+
+.home {
+  height: 95vh;
+  background-image: url('/public/0026_11.jpeg');
+  background-repeat: repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 10%;
+  gap: 10%;
+}
+
+.logo-img {
+  width: 25%;
+ 
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+ 
+}
+
+.logo-text {
+  margin: 0;
+  animation: 2s ease-out 0s 1 opacityFade;
+  font-size: 100px;
+}
+
+.gear-title {
+  margin: 0;
+  margin: 5px 0px;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.gear-description {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.gear-bottom {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 6%;
+  
+}
+
+.gear-bottom > p {
+  font-size: 30px;
+  font-weight: bold;
+  
+}
 /* .card-card > h2, p {
   max-width: 20%;
 } */
+.gear-bottom > button {
+  
+  border-radius: 8px;
+  width: 30%;
+  height: 50px;
+
+  font-size: 20px;
+  
+  font-weight: bold;
+  transition: 0.2s ease-out;
+}
+
+.gear-bottom > button:hover {
+  background: #ffffff;
+  border: 1px solid #216EF7;
+  color: black;
+}
+
+.add-to-cart {
+  background: #216EF7;
+  border: 1px solid #216EF7;
+  color: white;
+}
+
+.remove-from-cart {
+  /* Button Colors/Icon Gray Default #A8B3BC */
+
+  border: 1px solid #A8B3BC;
+  border-radius: 8px;
+  color: #A8B3BC;
+  background-color: white;
+}
+
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  /* 50%{
+    opacity: 10%;
+  } */
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+   
+  }
+}
+
+@keyframes opacityFade {
+  0% {
+    /* transform: translateX(100%); */
+    opacity: 0%;
+  }
+  
+  100% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
