@@ -45,7 +45,7 @@ const itemData = [
     },
     {
         id: 'bl00',
-        name: 'blooper',
+        name: 'Blooper',
         description: 'Performance looper with additive sound design.',
         images: {
             staticImg: blooper,
@@ -55,7 +55,7 @@ const itemData = [
     },
     {
         id: 'mo00',
-        name: 'mood',
+        name: 'Mood',
         description: 'Two channels of spatial chemistry.',
         images: {
             staticImg: mood,
@@ -65,7 +65,7 @@ const itemData = [
     },
     {
         id: 'th00',
-        name: 'thermae',
+        name: 'Thermae',
         description: "Analog delay that thinks it's a synth.",
         images: {
             staticImg: thermae,

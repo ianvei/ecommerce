@@ -4,12 +4,17 @@ import { useContext } from 'react'
 import Cart from './Cart'
 import { Link } from 'react-router-dom';
 import CartHover from './CartHover';
+import logoImg from '../data/images/logo.png'
 
 function Nav() {
   const { state: {cart} } = useContext(CartContext)
   return (
     <nav>
-        <Link to='/'><h1>pedalsupply</h1></Link>
+        <div className='nav-ls'>
+          <img className="nav-logo" src={logoImg} alt="logo" />
+          <Link to='/'><h1>pedalsupply</h1></Link>
+        </div>
+        
         <div className='nav-rs'>
           <Link to="gear">Gear</Link>
           <Link to="merch">Merch</Link>

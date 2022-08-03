@@ -2,6 +2,7 @@ import React from 'react'
 import { useContext, useState } from 'react'
 import CartContext from '../CartContext'
 import { Link } from 'react-router-dom';
+import logoImg from '../data/images/delete.png'
 
 
 function CartHover() {
@@ -19,13 +20,13 @@ function CartHover() {
               <img src={item.images.staticImg} alt={item.name} className="cart-hover-img"/>
               <h2>{item.name}</h2>
               <p>${item.price}</p>
-              {item.size && <p>{item.size}</p>}
-              <p>Quantity: {item.qty}</p>
-              <button onClick={() => dispatch({ type: "REMOVE_FROM_CART", payload: item })}>delete</button>
+              {/* {item.size && <p>{item.size}</p>} */}
+              {/* <p>Quantity: {item.qty}</p> */}
+              <img className='hover-delete-img' src={logoImg} alt="trash icon" onClick={() => dispatch({ type: "REMOVE_FROM_CART", payload: item })}></img>
             </div>
            )
           })}
-          <button><Link to="cart">View Cart</Link></button>
+          <Link to="cart"><button>View Cart</button></Link>
         </>
       )
 }
