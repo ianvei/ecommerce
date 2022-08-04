@@ -587,6 +587,7 @@ button {
   
   .logo-img {
     width: 60%;
+    /* width: 0px; */
   }
 
   .home {
@@ -698,7 +699,9 @@ button {
   }
 
   .nav-logo {
-    width: 10%;
+    width: 30px;
+    max-width: 30px;
+    max-height: 30px;
   }
 
   .nav-ls {
