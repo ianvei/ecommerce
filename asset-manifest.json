@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ecommerce/static/css/main.92c96e8a.css",
+    "main.css": "/ecommerce/static/css/main.3c033ff0.css",
     "main.js": "/ecommerce/static/js/main.6b6b60da.js",
     "static/media/0026_11.jpeg": "/ecommerce/static/media/0026_11.39f674ccc452b5a6c4a1.jpeg",
     "static/media/0025_12.jpeg": "/ecommerce/static/media/0025_12.0cc35c422aea9e1411c5.jpeg",
@@ -21,11 +21,11 @@
     "static/media/logo.png": "/ecommerce/static/media/logo.be7aa90d76accf7fb66d.png",
     "static/media/women-t-shirt-black-2017-1.jpg__300x300_q85_crop_subsampling-2_upscale.jpg": "/ecommerce/static/media/women-t-shirt-black-2017-1.jpg__300x300_q85_crop_subsampling-2_upscale.797355ea543c89e08c66.jpg",
     "index.html": "/ecommerce/index.html",
-    "main.92c96e8a.css.map": "/ecommerce/static/css/main.92c96e8a.css.map",
+    "main.3c033ff0.css.map": "/ecommerce/static/css/main.3c033ff0.css.map",
     "main.6b6b60da.js.map": "/ecommerce/static/js/main.6b6b60da.js.map"
   },
   "entrypoints": [
-    "static/css/main.92c96e8a.css",
+    "static/css/main.3c033ff0.css",
     "static/js/main.6b6b60da.js"
   ]
 }
