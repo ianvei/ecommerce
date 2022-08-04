@@ -19,8 +19,8 @@ function Nav() {
     <>
     <nav>
         <div className='nav-ls'>
-          <img className="nav-logo" src={logoImg} alt="logo" />
-          <Link to='/'><h1>pedalsupply</h1></Link>
+        <Link  className='nav-ls' to='/'><img className="nav-logo" src={logoImg} alt="logo" />
+          <h1>pedalsupply</h1></Link>
         </div>
         
         <img className={`hamburger-img ${menu? 'cancel-img' : ''}`} src={menu? cancelImg : hamburgerImg} alt="hamburgerMenu" onClick={toggleMenu}/>
