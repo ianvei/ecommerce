@@ -710,6 +710,12 @@ button {
 
   .checkout-content {
     width: 90vw;
+    padding: 50px;
+    height: 60vh;
+  }
+
+  .quantity-button > button {
+    max-width: 25px;
   }
 
 }
