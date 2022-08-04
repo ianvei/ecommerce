@@ -4,18 +4,18 @@ import './index.css';
 import RouteSwitch from './RouteSwitch';
 import Nav from './Components/Nav';
 import { CartProvider } from './CartContext';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className="main-body">
-    <BrowserRouter>
+    <HashRouter>
       <CartProvider>
         <Nav />
         <RouteSwitch />
       </CartProvider>
-    </BrowserRouter>
+    </HashRouter>
   </div>
     
 );
