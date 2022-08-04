@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecommerce/static/css/main.ddfe36e5.css",
-    "main.js": "/ecommerce/static/js/main.fa2290f0.js",
+    "main.js": "/ecommerce/static/js/main.1064cdc7.js",
     "static/media/0026_11.jpeg": "/ecommerce/static/media/0026_11.39f674ccc452b5a6c4a1.jpeg",
     "static/media/0025_12.jpeg": "/ecommerce/static/media/0025_12.0cc35c422aea9e1411c5.jpeg",
     "static/media/Habit_Pedal_Chase+Bliss_Wide.jpeg": "/ecommerce/static/media/Habit_Pedal_Chase+Bliss_Wide.24397b7212e55e2f5889.jpeg",
@@ -22,10 +22,10 @@
     "static/media/women-t-shirt-black-2017-1.jpg__300x300_q85_crop_subsampling-2_upscale.jpg": "/ecommerce/static/media/women-t-shirt-black-2017-1.jpg__300x300_q85_crop_subsampling-2_upscale.797355ea543c89e08c66.jpg",
     "index.html": "/ecommerce/index.html",
     "main.ddfe36e5.css.map": "/ecommerce/static/css/main.ddfe36e5.css.map",
-    "main.fa2290f0.js.map": "/ecommerce/static/js/main.fa2290f0.js.map"
+    "main.1064cdc7.js.map": "/ecommerce/static/js/main.1064cdc7.js.map"
   },
   "entrypoints": [
     "static/css/main.ddfe36e5.css",
-    "static/js/main.fa2290f0.js"
+    "static/js/main.1064cdc7.js"
   ]
 }
