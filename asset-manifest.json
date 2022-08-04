@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ecommerce/static/css/main.ddfe36e5.css",
+    "main.js": "/ecommerce/static/js/main.fa2290f0.js",
+    "static/media/0026_11.jpeg": "/ecommerce/static/media/0026_11.39f674ccc452b5a6c4a1.jpeg",
+    "static/media/0025_12.jpeg": "/ecommerce/static/media/0025_12.0cc35c422aea9e1411c5.jpeg",
+    "static/media/Habit_Pedal_Chase+Bliss_Wide.jpeg": "/ecommerce/static/media/Habit_Pedal_Chase+Bliss_Wide.24397b7212e55e2f5889.jpeg",
+    "static/media/Thermae_Pedal_Chase+Bliss_Wide.jpeg": "/ecommerce/static/media/Thermae_Pedal_Chase+Bliss_Wide.d34677bb5d44e1ae59a4.jpeg",
+    "static/media/Blooper_Pedal_Chase+Bliss_Wide.jpeg": "/ecommerce/static/media/Blooper_Pedal_Chase+Bliss_Wide.cb3ac10760f2a5f02c4d.jpeg",
+    "static/media/MOOD_Pedal_Chase+Bliss_Wide.jpeg": "/ecommerce/static/media/MOOD_Pedal_Chase+Bliss_Wide.798a14dd5c9bca178bbc.jpeg",
+    "static/media/CXM+1978_Automatone_Pedal_Chase+Bliss_Wide_Rollover.jpeg": "/ecommerce/static/media/CXM+1978_Automatone_Pedal_Chase+Bliss_Wide_Rollover.65cce4112ba52bb7384f.jpeg",
+    "static/media/MOOD_Pedal_Chase+Bliss_Wide_Rollover.jpeg": "/ecommerce/static/media/MOOD_Pedal_Chase+Bliss_Wide_Rollover.14e8bcfc32d8145073fd.jpeg",
+    "static/media/Generation+Loss+MKII_Pedal_Chase+Bliss_Wide_Rollover.jpeg": "/ecommerce/static/media/Generation+Loss+MKII_Pedal_Chase+Bliss_Wide_Rollover.f6fa51ff5bbf01295d83.jpeg",
+    "static/media/Thermae_Pedal_Chase+Bliss_Wide_Rollover.jpeg": "/ecommerce/static/media/Thermae_Pedal_Chase+Bliss_Wide_Rollover.8369e1eb74e7d4cfcb03.jpeg",
+    "static/media/Habit_Pedal_Chase+Bliss_Wide_Rollover.jpeg": "/ecommerce/static/media/Habit_Pedal_Chase+Bliss_Wide_Rollover.6c02e623f920e43b88a8.jpeg",
+    "static/media/blooper_Pedal_Chase+Bliss_Wide_Rollover.jpeg": "/ecommerce/static/media/blooper_Pedal_Chase+Bliss_Wide_Rollover.5546f775b6b4d3467215.jpeg",
+    "static/media/generationloss.jpeg": "/ecommerce/static/media/generationloss.07ebecd07aa8ead52c9e.jpeg",
+    "static/media/CXM+1978_Automatone_Pedal_Chase+Bliss_Wide.jpeg": "/ecommerce/static/media/CXM+1978_Automatone_Pedal_Chase+Bliss_Wide.a9af3a1970ba92714e6b.jpeg",
+    "static/media/women-t-shirt-grey-2017-1.jpg__300x300_q85_crop_subsampling-2_upscale.jpg": "/ecommerce/static/media/women-t-shirt-grey-2017-1.jpg__300x300_q85_crop_subsampling-2_upscale.8a13a4a7b91c4c9b04ae.jpg",
+    "static/media/men-t-shirt-grey-2017-1.jpg__300x300_q85_crop_subsampling-2_upscale.jpg": "/ecommerce/static/media/men-t-shirt-grey-2017-1.jpg__300x300_q85_crop_subsampling-2_upscale.4846ae11948a4ceb5ada.jpg",
+    "static/media/logo.png": "/ecommerce/static/media/logo.be7aa90d76accf7fb66d.png",
+    "static/media/women-t-shirt-black-2017-1.jpg__300x300_q85_crop_subsampling-2_upscale.jpg": "/ecommerce/static/media/women-t-shirt-black-2017-1.jpg__300x300_q85_crop_subsampling-2_upscale.797355ea543c89e08c66.jpg",
+    "index.html": "/ecommerce/index.html",
+    "main.ddfe36e5.css.map": "/ecommerce/static/css/main.ddfe36e5.css.map",
+    "main.fa2290f0.js.map": "/ecommerce/static/js/main.fa2290f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddfe36e5.css",
+    "static/js/main.fa2290f0.js"
+  ]
+}
