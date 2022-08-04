@@ -34,7 +34,7 @@ function Nav() {
               <CartHover />
             </div>
           </div>
-          <div>{cart.length}</div>
+          {/* <div>{cart.length}</div> */}
         </div>
         
     </nav>

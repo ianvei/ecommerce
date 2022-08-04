@@ -619,6 +619,7 @@ button {
 
   nav {
     padding: 1.5% 5%;
+    max-height: 50px;
   }
 
   .gear-description {
