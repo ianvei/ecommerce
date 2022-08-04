@@ -16,10 +16,10 @@ function Cart() {
     <div className='cartBody'>
       <div className='cart-content'>
         <div className='cart-header'>
-          <div></div>
-          <p>NAME</p>
+          <div className='filler'></div>
+          <p className='item-header'>ITEM</p>
           <p>PRICE</p>
-          <p>SIZE</p>
+          <p className='item-size'>SIZE</p>
           <p>QUANTITY</p>
           <div></div>
         </div>
@@ -39,7 +39,7 @@ function Cart() {
         )
         })}
       </div>
-      
+      <Link to='/checkout'><button className='checkout-button mobile'>CHECKOUT: ${cart.reduce((total, item)=>total+(item.price*item.qty), 0)}</button></Link>
       <div className='checkout'>
         <div className='checkout-info'>
           <h2>Thank you for shopping at pedalsupply!</h2>
@@ -49,6 +49,7 @@ function Cart() {
          <Link to='/checkout'><button className='checkout-button'>CHECKOUT: ${cart.reduce((total, item)=>total+(item.price*item.qty), 0)}
         </button></Link>
       </div>
+      
     </div>
   )
 }

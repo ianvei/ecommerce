@@ -471,6 +471,40 @@ button {
   gap: 2%;
 }
 
+.hb-content {
+  display: none;
+  position: sticky;
+  top: 52px;
+  width: 100%;
+  background: white;
+  flex-direction: column;
+  z-index: 50;
+  /* gap: 10px; */
+}
+
+.hb-content > a {
+  padding: 2% 2%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.hamburger-img {
+  display: none;
+  width: 10%;
+}
+
+.hb-content > a:hover {
+  background-color: lightgray
+}
+
+.closed {
+  display: none !important;
+}
+
+.mobile {
+  display: none !important;
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-50%);
@@ -525,7 +559,7 @@ button {
     display: none;
   }
 
-  .gear-cont, .home, .merch-cont {
+  .gear-cont, .home, .merch-cont, .cartBody {
     
     background-size: 350%;
     background-repeat: repeat;
@@ -573,4 +607,75 @@ button {
     width: 80%;
     text-align: center;
   }
+
+  .hb-content {
+    display: flex;
+  }
+
+  .hamburger-img {
+    display: block;
+    width: 10%;
+   
+    
+  }
+
+  .cancel-img {
+    opacity: 0.6;
+    width: 9%;
+    padding-right: 2%;
+  }
+
+  .checkout {
+    display: none;
+  }
+
+  .cart-content {
+    width: 100%;
+  }
+
+  .cart-card {
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 0.5fr;
+  }
+
+  .cart-header {
+    /* display: none; */
+    grid-template-columns: 1fr 1fr 0.5fr 1fr 0.5fr;
+  }
+
+  .cart-card > h2 {
+    display: none;
+  }
+
+  .filler {
+    display: none;
+  }
+
+  .item-header{ 
+    padding-left: 20%;
+  }
+
+  .delete-img {
+    width: 80%;
+  }
+
+  .item-size {
+    padding-right: 30px;
+  }
+
+  .checkout-button {
+    display: block !important;
+    margin-bottom: 1%;
+  }
+
+.cartBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.mobile {
+  display: flex;
+}
+
 }
